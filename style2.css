@@ -24,7 +24,7 @@ main{
     border-radius: 5px;
 }
 
-.card_toolbar_name{
+#card_toolbar_name{
     padding: 10px;
 }
 .card_toolbar_buttons{
@@ -84,12 +84,13 @@ main{
 
     
 }
-.keyboard_block{
+#keyboard_block{
     /* min-width: 400px; */
     margin: 5px;
+    
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blocktoolbar{
@@ -113,7 +114,7 @@ main{
     min-height: 150px;
     min-width: 250px;
     border: 0;
-    margin: 0;
+    margin-bottom:5px ;
     /* width: 370px;
     height: 100px; */
     /* resize: none; */
